@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <section class="dashboard">
+      <div class="dashboard__content">
+        <div class="dashboard__user">
+          <div class="dashboard__user-info user-info">
+            <img
+              class="user-info__img"
+              src="/images/image-jeremy.png"
+              alt="user-avatar"
+              width="50px"
+              height="50px"
+            />
+            <div class="user-info__txt">
+              <p class="user-info__subtitle">Report for</p>
+              <h2 class="user-info__heading">Jeremy Robson</h2>
+            </div>
+          </div>
+          <ul class="dashboard__menu">
+            <li class="dashboard__menu-item">Daily</li>
+            <li class="dashboard__menu-item dashboard__menu-item--active">
+              Weekly
+            </li>
+            <li class="dashboard__menu-item">Monthly</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
